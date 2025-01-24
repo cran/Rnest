@@ -1,8 +1,8 @@
 #' Summary results of NEST
 #'
 #' @description summary method for class "nest".
-#' @param object An object of class "nest".
-#' @param ... Further arguments for other methods, ignored for "nest".
+#' @param object an object of class "nest".
+#' @param ... further arguments for other methods, ignored for "nest".
 #'
 #' @return No returned value, called for side effects.
 #'
@@ -16,6 +16,7 @@ summary.nest <- function(object, ...){
   cat("\n")
   cat("nest",  paste0(unlist(packageVersion("Rnest")), collapse = "."),"ended normally \n \n")
   cat("   Estimator                      ", toupper(object$method),"\n")
+  cat("   Missing data treatment         ", toupper(object$na.action),"\n")
   cat("   Number of model parameters     ", (ncol(object$cor))*(ncol(object$cor)-1)/2, "\n")
   cat("   Resampling                     ", object$nrep,"\n")
   cat("   Sample size                    ", object$n, "\n")

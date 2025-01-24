@@ -2,32 +2,33 @@
 % Please edit documentation in R/pa.R
 \name{pa}
 \alias{pa}
+\alias{PA}
 \title{Parallel analysis}
 \usage{
 pa(
   data = NULL,
   n = NULL,
-  p = NULL,
-  nrep = 1000,
+  nv = NULL,
+  nreps = 1000,
   alpha = 0.05,
   crit = NULL,
   ...
 )
 }
 \arguments{
-\item{data}{data.frame.}
+\item{data}{a data.frame.}
 
-\item{n}{number of subjects.}
+\item{n}{the number of subjects.}
 
-\item{p}{number of variables.}
+\item{nv}{the number of variables.}
 
-\item{nrep}{number of replications.}
+\item{nreps}{the number of replications.}
 
 \item{alpha}{type I error rate.}
 
-\item{crit}{Critical values to compare the eigenvalues.}
+\item{crit}{critical values to compare the eigenvalues.}
 
-\item{...}{Other arguments}
+\item{...}{other arguments}
 }
 \value{
 nfactors (if data is supplied) and sampled eigenvalues
@@ -37,5 +38,8 @@ Parallel analysis
 }
 \examples{
 pa(ex_2factors, n = 42)
-E <- pa(n = 10, p = 2, nrep = 5)
+pa(n = 10, nv = 2, nreps = 100)
+}
+\references{
+Horn, J. L. (1965). A rationale and test for the number of factors in factor analysis. \emph{Psychometrika}, \emph{30}(2), 179–185. \doi{10.1007/BF02289447}
 }
