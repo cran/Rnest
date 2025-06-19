@@ -1,8 +1,8 @@
-91fa5fce753bc317bbe2d8c1d9fb4662 *DESCRIPTION
+a679eb9e7099021f15508b8932088939 *DESCRIPTION
 e22182484d5bedbf0264c398657497b4 *LICENSE
-a73aa730b95159a174fb4e07706c8c25 *NAMESPACE
+463f5fa64e72c7b55f80fa0b022052e3 *NAMESPACE
 51615fa0996e7665d5648f9db12e53ad *R/BartlettSphericity.R
-3361aa3127ed30ee9d56e4e185703b69 *R/EKC.R
+13d8816490113f1364103abbdfad6285 *R/EKC.R
 06f00be43ad4981a895d8cc227fc61bf *R/Ledermann.R
 80308d0629d43c0d81b9460458ff475c *R/MAP.R
 2e7cb20ee8f6749053af6edd70efbd4a *R/TEST1.R
@@ -22,7 +22,7 @@ ab8fbeaac076f7d9c2af8f2b8f9b9620 *R/ex_4factors_corr.R
 567f09d0e94eb35dc3608bf2d13fc224 *R/genr8.R
 7ae58b115f05dab1bf4d6f7ce9ed3e7d *R/loadings.R
 e1cd836df7c94de7a165c5829e4fa839 *R/meek_bouchard.R
-c7f628075f7111deba05393fd980d1ab *R/nest.R
+295d55d386a071a6f7c48d08858eb1ef *R/nest.R
 663dd405a743621b3a6f1ac5f13f7dec *R/pa.R
 793a62288946bfdf050db2b6dfaa8a57 *R/plot.nest.R
 303867caa71bfad17a5613d090427f21 *R/print.nest.R
@@ -52,7 +52,7 @@ abb5ea66172ce79a7586d2a2bec630fa *inst/apa.csl
 0a2f314cabb78142066498890a08cd54 *inst/ex_4factors_corr.png
 ab2fdadb327520761786ec327c7691aa *inst/ma.bib
 313298c03f3954ad75fefca1ebe98c66 *man/BartlettSphericity.Rd
-6ceacae4c329d672e1066007023b90c0 *man/EKC.Rd
+5f0852a6d8dfea364fe7a50adda3f51a *man/EKC.Rd
 46b47868e9ec1683c792403c91de498d *man/Ledermann.Rd
 d2f57f39c462c643f07110944fc2ab2e *man/MAP.Rd
 7ebd1c0d346ef532da329436fb5fa414 *man/TEST1.Rd

@@ -1,7 +1,7 @@
 Package: Rnest
 Type: Package
 Title: Next Eigenvalue Sufficiency Test
-Version: 1.1
+Version: 1.2
 Authors@R: 
     c(person(given = "P.-O.",
              family = "Caron",
@@ -17,10 +17,10 @@ Imports: crayon (>= 1.4.0), ggplot2 (>= 3.3.0), scales (>= 1.0.0),
         EFA.MRFA (>= 1.1.2), fungible (>= 2.3), MASS (>= 7.3-58.1),
         lavaan (>= 0.6), mvtnorm (>= 1.1), cli (>= 3.6.4)
 NeedsCompilation: no
-Packaged: 2025-05-08 12:42:31 UTC; pocar
+Packaged: 2025-06-19 13:27:31 UTC; pocar
 Author: P.-O. Caron [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0001-6346-5583>)
 Maintainer: P.-O. Caron <pocaron19@gmail.com>
 Depends: R (>= 3.5.0)
 Repository: CRAN
-Date/Publication: 2025-05-08 13:00:06 UTC
+Date/Publication: 2025-06-19 13:40:02 UTC
